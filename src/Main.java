@@ -8,22 +8,22 @@ public class Main {
 
 //        1 - Write a Java method to find the smallest number among three
 //        numbers.
-//        System.out.print("Enter first number: ");
-//        int n1 = scn.nextInt();
-//        System.out.print("Enter second number: ");
-//        int n2 = scn.nextInt();
-//        System.out.print("Enter third number: ");
-//        int n3 = scn.nextInt();
-//
-//        System.out.printf("the max number is: %d\n", findMin(n1,n2,n3));
-//
-//
-////        2 - Write a Java method that check if the entered number is negative or
-////        positive or zero.
-//
-//        System.out.print("Enter number: ");
-//        int number = scn.nextInt();
-//        checkNumber(number);
+        System.out.print("Enter first number: ");
+        int n1 = scn.nextInt();
+        System.out.print("Enter second number: ");
+        int n2 = scn.nextInt();
+        System.out.print("Enter third number: ");
+        int n3 = scn.nextInt();
+
+        System.out.printf("the max number is: %d\n", findMin(n1,n2,n3));
+
+
+//        2 - Write a Java method that check if the entered number is negative or
+//        positive or zero.
+
+        System.out.print("Enter number: ");
+        int number = scn.nextInt();
+        checkNumber(number);
 
 
 //        3 - Write a Java method to check whether a string is a valid password.
@@ -67,7 +67,6 @@ public class Main {
 
     public static boolean passwordChecker(String password){
         if(password.length() < 8){
-            System.out.println("lentgh");
             return false;
         } else if (password.matches(".*[^a-zA-Z0-9].*")) {
             return false;
