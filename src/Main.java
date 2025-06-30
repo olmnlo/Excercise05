@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Enter third number: ");
         int n3 = scn.nextInt();
 
-        System.out.printf("the max number is: %d\n", findMin(n1,n2,n3));
+        System.out.printf("the smallest number is: %d\n", findMin(n1,n2,n3));
 
 
 //        2 - Write a Java method that check if the entered number is negative or
